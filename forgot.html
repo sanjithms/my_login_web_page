@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forgot password</title>
+<link rel="stylesheet" href="forgot.css">
+</head>
+<body>
+    <form action="">
+        <div class="main">
+            <div class="box">
+                <h1>Forgot password</h1>
+                <input type="Email username" placeholder="Email or UserName" id="email">
+                <input type="password" placeholder="New password" id="password">
+                <input type="password" placeholder="confirm password" id="confirmpassword">
+                <input type="sumbit" value="Forgot" onclick="fun2()" id="forgot">
+                <p>Already have an account?<a href="login.html" class="log">Login</a></p>
+
+            </div>
+        </div>
+    </form>
+<script>
+    function fun2(){
+    
+    var e=document.getElementById("email").value;
+    var np=document.getElementById("password").value;
+    var cp=document.getElementById("confirmpassword").value;
+    
+if(e=="sanjith"||"mssanjithsanjithxib@gmail.com")
+{
+    if(np=="" || cp==""){
+        alert("please enter the password");
+    }
+
+    else{
+        if(np==cp)
+    {
+        alert("Login succefully");
+        window.open("./new.html");
+    }}
+}
+    }
+</script>
+</body>
+</html>

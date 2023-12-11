@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>home</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><span>MS</span>Sanjith</a>
+        <ul class="navbar">
+            <li><a href="main.html" class="active">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="gallary.html">Gallary</a></li>
+            <li><a href="contact.html">SocialMedia</a></li>
+            <li><a href="achivements.html">Achivements</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="home">
+            <div class="home_text">
+                <span>Software Developer</span>
+                <h1>SANJITH MS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae 
+                    repellendus dolorum aliquam enim laboriosam laborum, aperiam laudantium provident, 
+                    dicta adipisci accusamus repellat culpa suscipit, perferendis ab fugit
+                     quidem? Enim, iure?</p>
+            </div>
+            <div class="home_image">
+                <img src="3.jpg " alt="">
+            </div>
+        </div>
+    </section>
+    <div class="share">
+        <p>check out my profile</p>
+        <div class="social">
+            <a href="https://instagram.com/sanjith_m_s_?igshid=NGdseGJ4ZnV6Y3N4"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/sanjith-ms-ab395425b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://www.facebook.com/M.S.Sanjith6102004?mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://x.com/MSSanjith198507?t=RG5VrrBEam7tvzrQKNk3ww&s=09"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr =ScrollReveal({
+            distance:'40px',
+            duration: 2500,
+            reset: true
+        });
+        sr.reveal('.logo',{delay:200, origin:'left'})
+        sr.reveal('.navbar',{delay:300, origin:'left'})
+        sr.reveal('h1',{delay:400, origin:'left'})
+        sr.reveal('span',{delay:1000, origin:'left'})
+    </script>
+</body>
+</html>
